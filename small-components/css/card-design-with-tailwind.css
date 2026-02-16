@@ -1,0 +1,17 @@
+/*Main*/
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/*Card*/
+.card {
+    width: 450px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+/*Card Aside*/
+.background-gradient {
+    background-image: linear-gradient(to bottom, #21c8f6, #637bff);
+}
