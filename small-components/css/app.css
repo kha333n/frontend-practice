@@ -1,0 +1,93 @@
+/*Main*/
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*Card*/
+.card {
+    display: flex;
+    width: 450px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+/*Card Content*/
+.card-content > h1 {
+    margin: 10px 0 0;
+    font-size: 1.7em;
+}
+
+.card-content > h1 > a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.content-excerpt {
+    flex: 1;
+}
+
+.content-meta {
+    display: flex;
+    align-items: center;
+}
+
+.content-meta > div:first-child {
+    margin-right: 10px;
+}
+
+.content-meta div {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+.content-meta > div > img {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+/*Card Aside*/
+.card-aside {
+    background-image: linear-gradient(to bottom, #4776E6, #08427a);
+    border-radius: 10px;
+    min-width: 170px;
+    color: white;
+    padding: 20px;
+}
+
+.aside-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.aside-content > div > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.aside-header {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px 20px;
+    border-radius: 9999px;
+    font-size: 0.8em;
+}
