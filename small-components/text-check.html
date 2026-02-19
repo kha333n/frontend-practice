@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Typography Comparison: Leading & Tracking</title>
+</head>
+<body class="bg-slate-50 p-10 font-sans text-slate-800">
+
+<div class="max-w-4xl mx-auto space-y-16">
+
+  <section>
+    <h2 class="text-sm font-bold uppercase tracking-widest text-blue-600 mb-6">1. Letter Spacing (Tracking)</h2>
+    <div class="space-y-8 bg-white p-8 rounded-xl shadow-sm border border-slate-200">
+
+      <div>
+        <p class="text-xs text-slate-400 mb-1">.tracking-tighter (-0.05em)</p>
+        <h1 class="text-4xl font-black tracking-tighter">IMPACTFUL HEADLINE</h1>
+      </div>
+
+      <div>
+        <p class="text-xs text-slate-400 mb-1">.tracking-normal (0em)</p>
+        <h1 class="text-4xl font-black tracking-normal">IMPACTFUL HEADLINE</h1>
+      </div>
+
+      <div>
+        <p class="text-xs text-slate-400 mb-1">.tracking-widest (0.1em)</p>
+        <h1 class="text-4xl font-black tracking-widest">IMPACTFUL HEADLINE</h1>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2 class="text-sm font-bold uppercase tracking-widest text-blue-600 mb-6">2. Line Height (Leading)</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+      <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
+        <p class="text-xs text-slate-400 mb-2">.leading-none (1)</p>
+        <p class="text-lg leading-none">
+          This text feels very cramped. When the line height is set to none, the descenders of one line might actually touch the ascenders of the line below it. It is rarely used for body paragraphs but works for massive, single-word titles.
+        </p>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
+        <p class="text-xs text-slate-400 mb-2">.leading-relaxed (1.625)</p>
+        <p class="text-lg leading-relaxed">
+          This text has room to breathe. The "relaxed" setting is perfect for long-form reading, like blog posts or articles. It prevents the reader's eye from jumping to the wrong line accidentally and reduces eye strain significantly.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="bg-slate-900 text-white p-10 rounded-2xl">
+    <h2 class="text-sm font-bold uppercase tracking-[0.2em] text-blue-400 mb-4 text-center">The Professional Combo</h2>
+    <div class="text-center max-w-lg mx-auto">
+      <h1 class="text-5xl font-extrabold tracking-tight leading-tight mb-4">
+        Great design is invisible.
+      </h1>
+      <p class="text-sm uppercase tracking-widest text-slate-400">
+        Crafting digital experiences since 2026
+      </p>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>
